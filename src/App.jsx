@@ -29,20 +29,20 @@ const dec=()=>{
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
-                <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                <p className="nav-link" >Home <span className="sr-only">(current)</span></p>
               </li>
               <li className="nav-item active">
-                <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                <p className="nav-link" >Home <span className="sr-only">(current)</span></p>
               </li>
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <h5 className="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Shop
-                </a>
+                </h5>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="#">All Products</a>
-                  <a className="dropdown-item" href="#">Popular Items</a>
+                  <p className="dropdown-item" >All Products</p>
+                  <p className="dropdown-item" >Popular Items</p>
                   <div className="dropdown-divider"></div>
-                  <a className="dropdown-item" href="#">New Arrivals</a>
+                  <p className="dropdown-item" >New Arrivals</p>
                 </div>
               </li>
 
